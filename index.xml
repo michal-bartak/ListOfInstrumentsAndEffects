@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="MXM Scripts">
-  <category name="Scripts">
-    <reapack name="mxm_List of Instruments and Effects.lua" type="script" desc="List of Instruments and Effects">
+<index version="1" name="List of Instruments and Effects" commit="5e831b8f935b2807c7198b74ed3cc698b925d938">
+  <category name="InstrumentList">
+    <reapack name="MXM_List of Instruments and Effects.lua" type="script" desc="List of Instruments and Effects">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset238 Arial;}{\f1\fnil\fcharset2 Symbol;}}
-{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
-\pard\sa200\sl276\slmult1\f0\fs22\lang5 This is a Lua script, which lists all Reaper plugins used in an active project, grouping them into categories. The motivation comes from KVR OSC (KVRaudio One Synth Challange) competition, which requires providing technical details of the production.\par
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+{\*\listtable{\list\listtemplateid1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelindent0{\leveltext\'01\u8226 ?;}{\levelnumbers;}\fi-360\li360\lin360 }{\listname ;}\listid1}
+}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\widowctrl\hyphauto
 
-\pard\sa200\sl240\slmult1 When running the script, it immediately shows results in the opened window. Further, it provides a few buttons allowing copying the result to the clipboard. Currently available options are:\par
-
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 Plain text - it's the text shown in the preview window\par
-{\pntext\f1\'B7\tab}Markdown - results are formatted into tables using markdown syntax\par
-{\pntext\f1\'B7\tab}BB plain - results use some BBcode formatting, like bold\par
-{\pntext\f1\'B7\tab}BB [code] - results are enclosed into [CODE] [/CODE] BBcode tags, to force fixed-width fonts\par
-
-\pard\sa200\sl240\slmult1 Note, that every press of Copy to clipboard button generates the report again, including a refresh of displayed content. Normally the report shown in the script window is plain text, regardless format selected by pressing the export button. With the debug checkbox checked, the report shown in the window will be the same as the content copied into the clipboard.\par
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 \outlinelevel0 \b \fs34 List of Instruments and Effects\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Lists all REAPER plugins used in an active project, grouping them into categories. The motivation comes from the KVR One Synth Challenge competition, which requires providing technical details of the production.\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Results appear in the window immediately, with buttons to copy them to the clipboard in several formats:\par}
+{\pard \ql \f0 \fs24 \sa0 \li360 \fi-360\ls1\ilvl0\tx360 {\listtext\tab \bullet \tab} {\b plain text} -- the text shown in the preview window\par}
+{\pard \ql \f0 \fs24 \sa0 \li360 \fi-360\ls1\ilvl0\tx360 {\listtext\tab \bullet \tab} {\b markdown} -- results formatted into tables\par}
+{\pard \ql \f0 \fs24 \sa0 \li360 \fi-360\ls1\ilvl0\tx360 {\listtext\tab \bullet \tab} {\b BB plain} -- some BBCode formatting, such as bold\par}
+{\pard \ql \f0 \fs24 \sa0 \li360 \fi-360\ls1\ilvl0\tx360 {\listtext\tab \bullet \tab} {\b BB code} -- wrapped in {\f1 \fs24 [CODE]} tags to force a fixed-width font\sa180\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Every press of a Copy button regenerates the report, refreshing what is displayed. Normally the window shows plain text whichever export format is selected; tick {\f1 \fs24 debug} to make it show exactly what goes to the clipboard.\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Requires {\b Lokasenna's GUI library v2 for Lua}, available on ReaPack. After installing it, run {\i Set Lokasenna_GUI v2 library path.lua} once from the Action List.\par}
+{\pard \ql \f0 \fs24 \sa180 \li0 \fi0 Written and tested in REAPER 7.x; it may work in earlier versions. GPL v3.\par}
 }
 ]]></description>
+        <link rel="website" href="https://github.com/michal-bartak/ListOfInstrumentsAndEffects">GitHub</link>
+        <link rel="screenshot">https://raw.githubusercontent.com/michal-bartak/ListOfInstrumentsAndEffects/main/images/List_of_Instruments_and_Effects.png</link>
       </metadata>
-      <version name="1.0" author="Michal MaXyM Bartak" time="2023-11-11T21:01:00+01:00">
-        <changelog><![CDATA[Initial version]]></changelog>
-        <source main="main">https://raw.githubusercontent.com/michalk-k/ListOfInstrumentsAndEffects/v1.0/scripts/mxm/mxm_List%20of%20Instruments%20and%20Effects.lua</source>
-      </version>
-      <version name="2.0" author="Michal MaXyM Bartak" time="2024-01-12T20:00:00+01:00">
-        <changelog><![CDATA[Added GUI and options to copy result to clipboard in various formats]]></changelog>
-        <source main="main">https://raw.githubusercontent.com/michalk-k/ListOfInstrumentsAndEffects/v2.0/scripts/mxm/mxm_List%20of%20Instruments%20and%20Effects.lua</source>
+      <version name="2.0" author="Michal MaXyM Bartak" time="2026-09-18T11:40:34Z">
+        <changelog><![CDATA[Added GUI with export to various formats]]></changelog>
+        <source main="main">https://github.com/michal-bartak/ListOfInstrumentsAndEffects/raw/5e831b8f935b2807c7198b74ed3cc698b925d938/InstrumentList/MXM_List%20of%20Instruments%20and%20Effects.lua</source>
       </version>
     </reapack>
   </category>
   <metadata>
-    <description></description>
+    <description/>
   </metadata>
 </index>
-
