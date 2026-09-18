@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="List of Instruments and Effects" commit="5e831b8f935b2807c7198b74ed3cc698b925d938">
-  <category name="InstrumentList">
+<index version="1" name="List of Instruments and Effects" commit="254a7e1286408a8aa11208f47dfde31e7ba95820">
+  <category name="Various">
     <reapack name="MXM_List of Instruments and Effects.lua" type="script" desc="List of Instruments and Effects">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -25,9 +25,9 @@
         <link rel="website" href="https://github.com/michal-bartak/ListOfInstrumentsAndEffects">GitHub</link>
         <link rel="screenshot">https://raw.githubusercontent.com/michal-bartak/ListOfInstrumentsAndEffects/main/images/List_of_Instruments_and_Effects.png</link>
       </metadata>
-      <version name="2.0" author="Michal MaXyM Bartak" time="2026-09-18T11:40:34Z">
+      <version name="2.0" author="Michal MaXyM Bartak" time="2026-09-18T12:49:50Z">
         <changelog><![CDATA[Added GUI with export to various formats]]></changelog>
-        <source main="main">https://github.com/michal-bartak/ListOfInstrumentsAndEffects/raw/5e831b8f935b2807c7198b74ed3cc698b925d938/InstrumentList/MXM_List%20of%20Instruments%20and%20Effects.lua</source>
+        <source main="main">https://github.com/michal-bartak/ListOfInstrumentsAndEffects/raw/254a7e1286408a8aa11208f47dfde31e7ba95820/Various/MXM_List%20of%20Instruments%20and%20Effects.lua</source>
       </version>
     </reapack>
   </category>
