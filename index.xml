@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="List of Instruments and Effects" commit="254a7e1286408a8aa11208f47dfde31e7ba95820">
+<index version="1" name="List of Instruments and Effects" commit="57ff2badcd0a758da9e871a3fc25306f743b1256">
   <category name="Various">
     <reapack name="MXM_List of Instruments and Effects.lua" type="script" desc="List of Instruments and Effects">
       <metadata>
@@ -27,7 +27,10 @@
       </metadata>
       <version name="2.0" author="Michal MaXyM Bartak" time="2026-09-18T12:49:50Z">
         <changelog><![CDATA[Added GUI with export to various formats]]></changelog>
-        <source main="main">https://github.com/michal-bartak/ListOfInstrumentsAndEffects/raw/254a7e1286408a8aa11208f47dfde31e7ba95820/Various/MXM_List%20of%20Instruments%20and%20Effects.lua</source>
+        <source main="main">https://github.com/michal-bartak/ListOfInstrumentsAndEffects/raw/57ff2badcd0a758da9e871a3fc25306f743b1256/Various/MXM_List%20of%20Instruments%20and%20Effects.lua</source>
+        <source type="data" file="toolbar_icons/mxm_toolbar_list_of_instruments_and_effects.png">https://github.com/michal-bartak/ListOfInstrumentsAndEffects/raw/57ff2badcd0a758da9e871a3fc25306f743b1256/Reaper/Data/toolbar_icons/mxm_toolbar_list_of_instruments_and_effects.png</source>
+        <source type="data" file="toolbar_icons/150/mxm_toolbar_list_of_instruments_and_effects.png">https://github.com/michal-bartak/ListOfInstrumentsAndEffects/raw/57ff2badcd0a758da9e871a3fc25306f743b1256/Reaper/Data/toolbar_icons/150/mxm_toolbar_list_of_instruments_and_effects.png</source>
+        <source type="data" file="toolbar_icons/200/mxm_toolbar_list_of_instruments_and_effects.png">https://github.com/michal-bartak/ListOfInstrumentsAndEffects/raw/57ff2badcd0a758da9e871a3fc25306f743b1256/Reaper/Data/toolbar_icons/200/mxm_toolbar_list_of_instruments_and_effects.png</source>
       </version>
     </reapack>
   </category>
