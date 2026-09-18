@@ -1,4 +1,4 @@
-# ListOfInstrumentsAndEffects
+# <img src="icon/instruments-effects-128.png" width="30" align="top" alt=""> ListOfInstrumentsAndEffects
 This is a Lua script, which lists all Reaper plugins used in an active project, grouping them into categories.
 The motivation comes from KVR OSC (KVRaudio One Synth Challange) competition, which requires providing technical details of the production.
 

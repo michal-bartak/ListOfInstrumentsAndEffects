@@ -3,6 +3,10 @@
 -- @version 2.0
 -- @link GitHub https://github.com/michal-bartak/ListOfInstrumentsAndEffects
 -- @screenshot https://raw.githubusercontent.com/michal-bartak/ListOfInstrumentsAndEffects/main/images/List_of_Instruments_and_Effects.png
+-- @provides
+--   [data] /Reaper/Data/toolbar_icons/*.png > toolbar_icons/
+--   [data] /Reaper/Data/toolbar_icons/150/*.png > toolbar_icons/150/
+--   [data] /Reaper/Data/toolbar_icons/200/*.png > toolbar_icons/200/
 -- @about
 --   # List of Instruments and Effects
 --

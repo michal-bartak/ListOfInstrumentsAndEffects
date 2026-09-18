@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64"
+     role="img" aria-label="List of Instruments and Effects">
+  <title>List of Instruments and Effects</title>
+  <!--
+    The report, as a mark: four rows, one per category, in the order the script prints them
+    (GetDataPlain in the script): instruments, effects, monitoring plugins, offline/inactive.
+
+    Colours are AutoColor's starter palette, so the two scripts read as siblings on a toolbar
+    without being confusable: that mark is a radial star, this one horizontal rows.
+
+      #694AAD  instruments  (Bass there)
+      #3980AE  effects      (Guitars)
+      #39AE80  monitoring   (Vocals)
+      #818989  offline      REAPER's own idle-icon grey, because the category IS the dimmed one
+
+    Geometry, all of it load-bearing:
+
+      * Four rows at y=8/24/40/56: a 16px pitch that puts the art's extremes at y=3 and y=61, so
+        the mark fills the canvas instead of floating in it.
+      * Stroke 10 leaves a 6px gap between rows. That is 3.6px of bar against 2.2px of gap once
+        REAPER insets the art into a 30px cell, which is the smallest size that has to survive.
+        Stroke 9 separates marginally better there and is weaker at 16px; 10 was the trade.
+      * Rows end at x=54/58/45/50, never beyond 58. A round cap adds half the stroke, so a row at
+        58 reaches x=63: one pixel of margin. Row 2 originally ran to 61 and its cap was silently
+        clipped flat by the viewBox, which is the kind of thing only a 4x render shows.
+      * Lengths differ so the rows read as entries in a list rather than as a bar chart. They do
+        not encode anything: a real project's category sizes are not knowable here.
+
+    The art fills the canvas on purpose. Padding is NOT baked in here: scripts/icon.mjs insets the
+    REAPER toolbar renders to that platform's house margin, so the README mark can use the full box.
+  -->
+  <g stroke-width="10" stroke-linecap="round">
+    <line x1="6" y1="8"  x2="54" y2="8"  stroke="#694AAD"/><!-- instruments -->
+    <line x1="6" y1="24" x2="58" y2="24" stroke="#3980AE"/><!-- effects     -->
+    <line x1="6" y1="40" x2="45" y2="40" stroke="#39AE80"/><!-- monitoring  -->
+    <line x1="6" y1="56" x2="50" y2="56" stroke="#818989"/><!-- offline     -->
+  </g>
+</svg>
